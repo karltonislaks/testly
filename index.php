@@ -1,3 +1,4 @@
+<?php require 'classes/Request.php' ?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -24,8 +25,8 @@
 <![endif]-->
 
 <!-- Add your site or application content here -->
-<p>This is HTML5 Boilerplate.</p>
-<?php require $_GET['page'].'.php'; ?>
+
+
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
