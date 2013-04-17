@@ -10,7 +10,7 @@
 class Request
 {
 
-	public $controller;
+	public $controller = DEFAULT_CONTROLLER;
 	public $action = 'index';
 	public $params = array();
 
@@ -27,8 +27,10 @@ class Request
 			}
 		}
 	}
+	public function redirect($destination){
+		header('Location: '.BASE_URL.$destination);
+	}
 }
-
 $request = new Request;
 
 
