@@ -21,6 +21,6 @@ function get_one($sql, $debug = FALSE){
 		exit($sql);
 	}
 	$result = mysql_fetch_row($q);
-	return is_array($result) && count($result) > 0 ? $result[0] : null;
+	return is_array($result) && count($result) > 0 ? $result[0] : NULL;
 
 }
