@@ -11,6 +11,13 @@ mysql_select_db(DATABASE_DATABASE) or mysql_error();
 mysql_query("SET NAMES 'utf8'");
 mysql_query("SET CHARACTER 'utf8'");
 
+function get_all($sql){
+	$q = mysql_query($sql) or exit (mysql_error());
+	while (($result[] = mysql_fetch_assoc($q)) || array_pop($result)){
+			;
+	}
+	return $result;
+}
 // Meetod get_one kutsutakse v2lja n2iteks auth.php, kui antakse talle parameeter $sql(p2ring)
 function get_one($sql, $debug = FALSE){
 

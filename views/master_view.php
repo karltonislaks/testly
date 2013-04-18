@@ -22,6 +22,13 @@
 		{
 			padding-top:60px;
 		}
+		body, html {
+			background: url('<?=BASE_URL?>assets/img/bwb.jpg');
+			height: 100%;
+		}
+		table.table-bordered tr {
+			background-color: #f9f9f9;
+		}
 	</style>
 </head>
 <body>
