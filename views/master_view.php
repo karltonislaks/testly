@@ -33,7 +33,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="brand" href="#">Project name</a>
+			<a class="brand" href="#">TESTLY</a>
 			<div class="nav-collapse collapse">
 				<ul class="nav">
 					<li class="active"><a href="<?= BASE_URL?>tests">Home</a></li>
@@ -47,6 +47,8 @@
 
 <div>
 	<?php
+
+	//otsime views kaustast vastava controlleri, vastava actioni (f0unktsiooni) vaatefaili.
 	require 'views/'.$request->controller.'_'.$request->action.'_view.php';
 	?>
 

@@ -68,7 +68,7 @@
 		<label class="checkbox">
 			<input type="checkbox" value="remember-me"> Hoia meeles!
 		</label>
-		<button class="btn btn-large btn-primary" type="submit">Logi sisse</button>
+		<button style="margin-left: 30% " class="btn btn-large btn-primary" type="submit">Logi sisse</button>
 	</form>
 
 </div> <!-- /container -->

@@ -22,11 +22,21 @@ class Request
 				// beacause its empty!
 				array_shift($path_info);
 				$this->controller = isset($path_info[0]) ? array_shift($path_info) : 'welcome';
+
+				// Kontrollitakse, kas pathinfo 1.liige on olemas ja(&&) ei ole(!) tühi,siis antud classi actioni v22rtuseks
+				// saab alles j22nud pathinfo 1.liige,(mis samas ka eemaldatakse pathinfost). Juhul kui, pathinfos pole seda
+				// esimest liiget pannakse antud classi actioni omaduse v22rtuseks 'index'.
 				$this->action = isset($path_info[0]) && ! empty($path_info[0]) ? array_shift($path_info) : 'index';
+
+				// Kontrollib, kas pathinfo 1.liige on olemas, siis antud classi parameetriteks saab pathinfo massiivi kogu
+				// alles j22nud liikmed
 				$this->params = isset($path_info[0]) ? $path_info : NULL;
 			}
 		}
 	}
+
+	// Funktsioon ymbersuunamiseks. Parameetriks on $destination, mis saab oma v22rtuse sel hetkel kui funktsioon
+	// v2lja kutsutakse. NT! $request->redirect('auth'); kus string auth omistatakse $destinationi v22rtuseks.
 	public function redirect($destination){
 		header('Location: '.BASE_URL.$destination);
 	}
