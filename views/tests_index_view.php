@@ -1,22 +1,31 @@
-<p>
-	<br><a class="btn-large btn-primary"href="http://google.com">Lisa uus test!</a></br>
+<p><a class="btn btn-large btn-primary" href="https://www.google.ee">Lis uus test </a>
 </p>
-<table id="tests-table" class="table table-bordered table-striped">
-	<br><thead>
+<table id="tests-table" class="table table-bordered table striped">
+	<thead>
+	<tr>
 		<th>Testi nimi</th>
 		<th>Koostaja</th>
 		<th>Aeg</th>
 		<th>Tegevused</th>
-	</thead></br>
-	<tbody>
-	<? if(! empty($tests)): foreach($tests as $test): ?>
-	<tr id="test<?=$test['test_id'] ?>">
-		<td><?=$test['name'] ?></td>
-		<td><?=$test['username'] ?></td>
-		<td><?=$test['date'] ?></td>
-		<td><?= "Vaata"?>
-		<i class="icon-pencil"</i></td>
 	</tr>
-	<? endforeach;endif ?>
+	</thead>
+	<tbody>
+	<?if (! empty($tests)):foreach ($tests as $test): ?>
+		<tr id="test<?= $test['test_id'] ?>">
+			<td><?=$test['name']?></td>
+			<td><?=$test['username']?></td>
+			<td><?=substr($test['date'], 0, 10)?></td>
+			<td>
+				<a href="<?= BASE_URL ?>tests/edit/<?=$test['test_id'] ?>">
+					<i class="icon-pencil"></i> </a>
+
+
+				<a href="#" onclick="if(!confirm('Oled kindel?')) return false;
+					remove_test_ajax(<?= $test['test_id'] ?>);return false">
+					<i class="icon-trash"></i>Kustuta</a></td>
+
+		</tr>
+	<? endforeach;endif?>
 	</tbody>
+
 </table>

@@ -1,44 +1,52 @@
 <?php
-
-// Loome mysql serveriga yhenduse.Annan parameetrid, mis andsin config.php konstantis, kui yhendust
-// ei anna luua siis annab mysql errori.
+//connect to my host and select database using defined variables or have error
 mysql_connect(DATABASE_HOSTNAME, DATABASE_USERNAME) or mysql_error();
+mysql_select_db(DATABASE_DATABASE)or mysql_error();
+//my queries have letters like ä,ö,ü,õ
+mysql_query("SET NAMES 'utf8");
+mysql_query("SET CHARACTER 'utf8");
 
-// Valin tehtud andmebaasi v6i annan errori.
-mysql_select_db(DATABASE_DATABASE) or mysql_error();
+function q($sql, &$query_pointer = NULL, $debug = FALSE)
+{
+	if ($debug) {
+		print "<pre>$sql</pre>";
 
-// P2ringud, mille saadan serverisse on utf8 kodeeringuga.
-mysql_query("SET NAMES 'utf8'");
-mysql_query("SET CHARACTER 'utf8'");
-
-function get_all($sql){
-	$q = mysql_query($sql) or exit (mysql_error());
-	while (($result[] = mysql_fetch_assoc($q)) || array_pop($result)){
-			;
 	}
-	return $result;
+	$query_pointer = mysql_query($sql)or mysql_error();
+	switch (substr($sql, 0, 4)) {
+		case 'SELE':
+			return mysql_num_rows($query_pointer);
+		case 'INSE':
+			return mysql_insert_id();
+		default:
+			return mysql_affected_rows();
+	}
 }
-// Meetod get_one kutsutakse v2lja n2iteks auth.php, kui antakse talle parameeter $sql(p2ring)
-function get_one($sql, $debug = FALSE){
 
-	// Kui debugi v22rtus on TRUE, siis ta l2bib seda if-i sisu, muidu laseb yle.
-	if($debug){
+//this function makes sure if my mysql query had any results, it gets a query data from auth.php
+function get_one($sql, $debug = FALSE)
+{
+	if ($debug) {
 		print "<pre>$sql</pre>";
 	}
-
-	// Loome muutuja $q, mille v22rtuseks on kas p2ring($sql) v6i viskab v2lja funktsioonist ja annab veateate.
-	$q = mysql_query($sql) or exit (mysql_error());
-
-	// Juhul kui mysql_num_rows($q) tagastab v22rtuse false siis viskab funktsioonist (exit) v2lja.
-	if(mysql_num_rows($q) === FALSE){
-		exit($sql);
+//make query with $sql data or give an error
+	$q = mysql_query($sql) or exit(mysql_error());
+//if no rows in my query die
+	if (mysql_num_rows($q) === FALSE) {
+		die($sql);
 	}
-
-	// Loome muutuja $result, millesse salvestab oma p2ringutulemuse masiivina.
+//save a row into my variable
 	$result = mysql_fetch_row($q);
+//if my variable is a array and has more than 0 members return the first member else give NULL=none
+	return (is_array($result)) && count($result) > 0 ? $result[0] : NULL;
+}
 
-	// Kontrollib, kas $result on massiiv ja kas on rohkem elemente kui null, siis
-	// tagastame $result esimese elemendi. Vastasel juhul tagastame nulli.
-	return is_array($result) && count($result) > 0 ? $result[0] : NULL;
 
+function get_all($sql)
+{
+	$q = mysql_query($sql) or exit(mysql_error());
+	while (($result[] = mysql_fetch_assoc($q)) || array_pop($result)) {
+		;
+	}
+	return $result;
 }
