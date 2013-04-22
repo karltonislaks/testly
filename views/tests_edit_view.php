@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/themes/smoothness/jquery-ui.css" />
 <script>
-	$(function () {
+	$(function() {
 		$("#tabs").tabs();
 	});
 </script>
@@ -42,7 +42,7 @@
 				<input type="radio" name="tf.correct" value="1">
 				<textarea name="answer.1">False</textarea>
 			</div>
-			<div id="type_id_2">
+			<div id="type_id_2" class="answer-template">
 				<label>Sisesta vastuse variandid ja m2rgi 2ra, milline variant on 6ige</label>
 				<div id="multiple-choice-options">
 					<div class="answer-option">
@@ -84,7 +84,7 @@
 					</div>
 				</div>
 			</div>
-			<div id="type_id_4">
+			<div id="type_id_4" class="answer-template">
 				<label>Sisesta v6imalikud vastuse variandid(Yks vastus yhte kasti)</label>
 				<div id="fill-in-the-blank-answer-option">
 					<div class="answer-option">
@@ -94,9 +94,7 @@
 				</div>
 			</div>
 		</div>
-
-
-	</div>
+</div>
 	<div id="tabs-3">
 		<p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi
 			neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora
