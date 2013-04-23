@@ -8,7 +8,7 @@
 	<meta name="author" content="">
 
 	<!-- Le styles -->
-	<link href="../assets/css/bootstrap.css" rel="stylesheet">
+	<link href="<?=ASSETS_URL?>assets/css/bootstrap.css" rel="stylesheet">
 	<style type="text/css">
 		body {
 			padding-top: 40px;
@@ -60,11 +60,11 @@
 	<link rel="shortcut icon" href="../assets/ico/favicon.png">
 </head>
 
-<body style="background-image: url(assets/img/metal2.jpg)">
+<body style="background-image: url(assets/img/kitten.jpg)">
 
 <div class="container">
 
-	<form class="form-signin" method="POST">
+	<form class="form-signin" method="POST" style="opacity: 0.80">
 		<h2 class="form-signin-heading">Logi sisse</h2>
 		<input name="username" type="text" class="input-block-level" placeholder="Kasutajanimi">
 		<input name="password" type="password" class="input-block-level" placeholder="Parool">

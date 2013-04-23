@@ -34,8 +34,7 @@
 		}
 
 		body, html {
-			background: url('<?=BASE_URL?>assets/img/bwb.jpg');
-			height: 100%;
+			background: url('<?=BASE_URL?>assets/img/cur.jpg');
 
 		}
 
@@ -58,8 +57,8 @@
 
 			<div class="nav-collapse collapse">
 				<ul class="nav">
-					<li class="active"><a href="<?= BASE_URL ?>tests">Home</a></li>
-					<li><a href="#about">About</a></li>
+					<li class="active"><a href="<?= BASE_URL ?>tests">Testid</a></li>
+					<li><a href="#about">Info</a></li>
 					<li><a href="<?= BASE_URL ?>auth/logout">Logi välja</a></li>
 				</ul>
 			</div>
