@@ -34,7 +34,7 @@
 		}
 
 		body, html {
-			background: url('<?=BASE_URL?>assets/img/cur.jpg');
+			background: url('<?=BASE_URL?>assets/img/taust.jpg');
 
 		}
 

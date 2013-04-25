@@ -41,6 +41,7 @@
 			height: auto;
 			margin-bottom: 15px;
 			padding: 7px 9px;
+			text-align: center;
 		}
 
 	</style>
@@ -60,19 +61,25 @@
 	<link rel="shortcut icon" href="../assets/ico/favicon.png">
 </head>
 
-<body style="background-image: url(assets/img/kitten.jpg)">
+<body style="background-image: url(assets/img/taust.jpg)">
 
 <div class="container">
 
-	<form class="form-signin" method="POST" style="opacity: 0.80">
-		<h2 class="form-signin-heading">Logi sisse</h2>
+	<form class="form-signin" method="POST" style="opacity: 0.7; border: dotted darkolivegreen 3px ">
+		<h2 class="form-signin-heading" style="text-shadow: darkolivegreen 2px 2px 2px; text-align: center">Logi sisse</h2>
 		<input name="username" type="text" class="input-block-level" placeholder="Kasutajanimi">
 		<input name="password" type="password" class="input-block-level" placeholder="Parool">
 		<label class="checkbox">
+
 			<label class="checkbox">
+			<div style="padding-left: 74px" >
 				<input type="checkbox" value="remember-me"> Jäta mind meelde
+			</div>
 			</label>
-			<button class="btn btn-large btn-primary" type="submit">Logi sisse</button>
+
+			<div style="text-align: center">
+			<button class="btn btn-large btn-inverse" type="submit">Logi sisse</button>
+			</div>
 	</form>
 
 </div>

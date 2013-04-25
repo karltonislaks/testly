@@ -1,4 +1,4 @@
-<p><a class="btn btn-large btn-primary" href="<?BASE_URL?>tests/add">Lisa uus test </a>
+<p><a class="btn btn-large btn-inverse" href="<?BASE_URL?>tests/add">Lisa uus test </a>
 </p>
 <table id="tests-table" class="table table-bordered table striped" style="opacity: 0.70">
 	<thead>

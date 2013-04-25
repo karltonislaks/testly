@@ -1,9 +1,14 @@
+//
 var current_type_id=2;
 
 function addMultipleChoice(){
+	//save html elements to a variable
 	var html='<div class="answer-option"><input type="radio" name="mc.correct" value="<id>">&nbsp;<textarea name="mc.answer.<id>"></textarea></div>'
+	//count how many textarea elements there is in #multiple-choice-options
 	var id=$('#multiple-choice-option textarea').length;
-	html=html.replace(/<id>/g,id);
+	//replaces the <id> element in html with new value
+	html=html.replace(/<id>/g,id+1);
+	// search for element with id #multiple-choice-option and append it new_html
 	$('#multiple-choice-option').append(html);
 	return false;
 }
@@ -14,7 +19,10 @@ function addMultipleResponse(){
 	$('#multiple-response-answer-option').append(html);
 	return false;
 }
+//remove function
 function removeMultipleChoice(){
+	//if there is more than one textarea element in #multiple-choice-option
+	    // then take the last answer-option class element and remove it
 	if($('#multiple-choice-option textarea').length>1){
 		$('#multiple-choice-option .answer-option:last').remove();
 	}
@@ -27,6 +35,7 @@ function removeMultipleResponse(){
 	return false;
 }
 function checkForm(){
+//
 	var elements=$('#type_id_' + current_type_id + 'input[type=checkbox]:not(.shuffle_answers), #type_id_' + current_type_id + 'input[type=radio]:not(#shuffle)');
 	var textboxes=$('#type_id_' + current_type_id + 'textarea');
 	for(var i=0; i<elements.length; i++){
@@ -47,11 +56,17 @@ $(function(){
 			$('#type_id_' + current_type_id).show();
 		}
 	});
+	//make variable of the element type_id option
 	var list = $('#type_id option');
+
+	//Loop through the list and check if $(list[i]) value is equal to current_type_id
+		// if true, then set  $(list[i]) element attribute selected value selected
 	for(var i=0; i<list.length; i++){
 		if($(list[i]).val() == current_type_id){
 			$(list[i]).attr('selected', 'selected');
 		}
 	}
+
+	// set focus on the first input element in the code
 	$('textarea:first').focus();
 });

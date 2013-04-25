@@ -10,19 +10,19 @@
 	<button class="btn btn-large btn-primary" type="button" onclick="submit1()">Salvesta</button>
 </div>
 
-<div id="tabs">
+<div id="tabs" style="opacity: 0.8">
 	<ul>
 		<li><a href="#tabs-1">Üldine</a></li>
-		<li><a href="#tabs-2">Kysimus</a></li>
+		<li><a href="#tabs-2">Küsimus</a></li>
 		<li><a href="#tabs-3">Raport</a></li>
 	</ul>
 	<div id="tabs-1">
 		<form method ="post">
-			<p>Kysimuse nimi</p>
+			<p>Küsimuse nimi</p>
 			<input type="text" name="name" value="<?$test['name']?>">
 			<p>Sissejuhatus</p>
 			<textarea name="Introduction" ><?=$test['introduction']?></textarea>
-			<p>Kokkuv6te</p>
+			<p>Kokkuvõte</p>
 			<textarea name="Conclusion"><?=$test['conclusion']?></textarea>
 			<p>Passcode</p>
 			<input type="text" name="passcode" value="<?=$test['passcode']?>">
@@ -30,25 +30,25 @@
 
 	</div>
 	<div id="tabs-2">
-		<p>Kysimus</p>
+		<p>Küsimus</p>
 		<textarea name="question_text" ><?=$question['question_text']?$question['question_text']:''?></textarea>
-		<p>Tyyp</p>
+		<p>Tüüp</p>
 		<select name="type_id" id="type_id" >
-			<option value="1" >T6ene/v22r</option>
-			<option value="2" selected="selected" >Yks 6ige</option>
-			<option value="3" >Mitu 6iget</option>
-			<option value="4" >T2ida lyngad</option>
+			<option value="1" >Õige/Vale</option>
+			<option value="2" selected="selected" >Üks õige</option>
+			<option value="3" >Mitu õiget</option>
+			<option value="4" >Täida lüngad</option>
 		</select>
 		<div id="answer-template" >
 			<div id="type_id_1" class="answer-template">
-				<p>Sisesta kaks vastust ja m2rgi 2ra 6ige vastus</p>
+				<p>Sisesta kaks vastust ja märgi ära õige vastus</p>
 				<input type="radio" name="tf.correct" value="0" checked="checked">
-				<textarea name="answer.0">T6ene</textarea>
+				<textarea name="answer.0">Õige</textarea>
 				<input type="radio" name="tf.correct" value="1">
-				<textarea name="answer.1">V22r</textarea>
+				<textarea name="answer.1">Vale</textarea>
 			</div>
 			<div id="type_id_2" class="answer-template">
-				<p>Sisesta vastuse variandid ja m2rgi 2ra, milline variant on 6ige</p>
+				<p>Sisesta vastuse variandid ja märgi ära, milline variant on õige</p>
 				<div id="multiple-choice-option">
 					<div class="answer-option">
 						<input type="radio" name="mc.correct" value="0" checked="checked">
@@ -71,7 +71,7 @@
 				">Eemalda</a> vastusevariant
 			</div>
 			<div id="type_id_3" class="answer-template">
-				<p>Sisesta vastuse variandid ja m2rgi 2ra, millised variandid on 6iged</p>
+				<p>Sisesta vastuse variandid ja märgi ära, millised variandid on õiged</p>
 				<div id="multiple-response-answer-option">
 					<div class="answer-option">
 						<input type="checkbox" name="mr.correct" value="1">
@@ -94,7 +94,7 @@
 				onclick="return removeMultipleResponse()">Eemalda</a> vastusevariant
 			</div>
 			<div id="type_id_4" class="answer-template">
-				<p>Sisesta v6imalikud vastuse variandid(Yks vastus yhte kasti)</p>
+				<p>Sisesta võimalikud vastuse variandid(üks vastus ühte kasti)</p>
 				<div id="fill-in-the-blank-answer-option">
 					<div class="answer-option">
 						<input type="checkbox" name="fitb.correct" checked="checked" disabled="true">

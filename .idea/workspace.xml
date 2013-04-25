@@ -2,43 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list id="3cbb4661-7d4b-408d-819e-0a41457cbca2" name="Default" comment="" />
-    <list default="true" id="169fad35-e761-4776-ac42-823cb34ba3e3" name="804555-48140467 Sisselogimine usernameiga" comment="Multiple choices. Test editing">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/btt.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/city.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/cur.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/kitten.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/test.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/tests_add_view.php" />
+    <list default="true" id="169fad35-e761-4776-ac42-823cb34ba3e3" name="804555-48140467 Sisselogimine usernameiga" comment="Add test_add_view. Add js. Add Buttons">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/tests_remove_view.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/auth_view.php" afterPath="$PROJECT_DIR$/views/auth_view.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/master_view.php" afterPath="$PROJECT_DIR$/views/master_view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/vendor/modernizr-2.6.2.min.js" afterPath="$PROJECT_DIR$/assets/js/vendor/modernizr-2.6.2.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/test_add_edit.js" afterPath="$PROJECT_DIR$/assets/js/test_add_edit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/tests.js" afterPath="$PROJECT_DIR$/assets/js/tests.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/tests.php" afterPath="$PROJECT_DIR$/controllers/tests.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/tests_edit_view.php" afterPath="$PROJECT_DIR$/views/tests_edit_view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/tests_add_view.php" afterPath="$PROJECT_DIR$/views/tests_add_view.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/tests_index_view.php" afterPath="$PROJECT_DIR$/views/tests_index_view.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="testly.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/index.php" changelist="169fad35-e761-4776-ac42-823cb34ba3e3" time="1366113497035" ignored="false" />
-    <file path="/Dummy.txt" changelist="169fad35-e761-4776-ac42-823cb34ba3e3" time="1366710442469" ignored="false" />
+    <file path="/Dummy.txt" changelist="169fad35-e761-4776-ac42-823cb34ba3e3" time="1366872086864" ignored="false" />
     <file path="/test.php" changelist="3cbb4661-7d4b-408d-819e-0a41457cbca2" time="1366018869754" ignored="false" />
     <file path="/Request.php" changelist="169fad35-e761-4776-ac42-823cb34ba3e3" time="1366187610168" ignored="false" />
     <file path="/.htaccess" changelist="169fad35-e761-4776-ac42-823cb34ba3e3" time="1366184410382" ignored="false" />
-    <file path="/master_view.php" changelist="169fad35-e761-4776-ac42-823cb34ba3e3" time="1366702858189" ignored="false" />
+    <file path="/master_view.php" changelist="169fad35-e761-4776-ac42-823cb34ba3e3" time="1366883702625" ignored="false" />
     <file path="/config.php" changelist="169fad35-e761-4776-ac42-823cb34ba3e3" time="1366187081802" ignored="false" />
     <file path="/database.php" changelist="169fad35-e761-4776-ac42-823cb34ba3e3" time="1366186073361" ignored="false" />
     <file path="/user.php" changelist="169fad35-e761-4776-ac42-823cb34ba3e3" time="1366108311277" ignored="false" />
     <file path="/auth.php" changelist="169fad35-e761-4776-ac42-823cb34ba3e3" time="1366114027933" ignored="false" />
-    <file path="/auth_view.php" changelist="169fad35-e761-4776-ac42-823cb34ba3e3" time="1366709166643" ignored="false" />
+    <file path="/auth_view.php" changelist="169fad35-e761-4776-ac42-823cb34ba3e3" time="1366885766036" ignored="false" />
     <file path="/.gitignore" changelist="169fad35-e761-4776-ac42-823cb34ba3e3" time="1366187941178" ignored="false" />
-    <file path="/tests.php" changelist="169fad35-e761-4776-ac42-823cb34ba3e3" time="1366710526734" ignored="false" />
+    <file path="/tests.php" changelist="169fad35-e761-4776-ac42-823cb34ba3e3" time="1366879846406" ignored="false" />
     <file path="/tests_edit_view.php" changelist="169fad35-e761-4776-ac42-823cb34ba3e3" time="1366710572528" ignored="false" />
-    <file path="/test_add_edit.js" changelist="169fad35-e761-4776-ac42-823cb34ba3e3" time="1366715579722" ignored="false" />
-    <file path="/tests_index_view.php" changelist="169fad35-e761-4776-ac42-823cb34ba3e3" time="1366710493558" ignored="false" />
-    <file path="/tests_add_view.php" changelist="169fad35-e761-4776-ac42-823cb34ba3e3" time="1366718397290" ignored="false" />
+    <file path="/test_add_edit.js" changelist="169fad35-e761-4776-ac42-823cb34ba3e3" time="1366883560524" ignored="false" />
+    <file path="/tests_index_view.php" changelist="169fad35-e761-4776-ac42-823cb34ba3e3" time="1366885363112" ignored="false" />
+    <file path="/tests_add_view.php" changelist="169fad35-e761-4776-ac42-823cb34ba3e3" time="1366886850473" ignored="false" />
     <file path="/a.dummy" changelist="169fad35-e761-4776-ac42-823cb34ba3e3" time="1366714861097" ignored="false" />
+    <file path="/tests_remove_view.php" changelist="169fad35-e761-4776-ac42-823cb34ba3e3" time="1366882953398" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,41 +53,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="config.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="36" selection-start="86" selection-end="86" vertical-scroll-proportion="-0.82758623">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="tests.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/tests.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="38" selection-start="1288" selection-end="1288" vertical-scroll-proportion="-13.931034">
+            <state line="49" column="5" selection-start="1378" selection-end="1378" vertical-scroll-proportion="-3.1724138">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_add_edit.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/test_add_edit.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="895" selection-end="895" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tests_add_view.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/tests_add_view.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="26" selection-start="162" selection-end="162" vertical-scroll-proportion="0.41142857">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <marker date="1366718399641" expanded="true" signature="418:433" placeholder="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -100,20 +65,11 @@
       <file leaf-file-name="master_view.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/master_view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="19" selection-start="2537" selection-end="2537" vertical-scroll-proportion="0.0">
+            <state line="59" column="22" selection-start="1913" selection-end="1914" vertical-scroll-proportion="-26.222221">
               <folding>
-                <marker date="1366708991481" expanded="true" signature="2290:2536" placeholder="..." />
-                <marker date="1366708991481" expanded="true" signature="2383:2408" placeholder="..." />
+                <marker date="1366883749897" expanded="true" signature="2292:2538" placeholder="..." />
+                <marker date="1366883749897" expanded="true" signature="2385:2410" placeholder="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="auth.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/auth.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -121,8 +77,14 @@
       <file leaf-file-name="auth_view.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/auth_view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="13" selection-start="2320" selection-end="2320" vertical-scroll-proportion="-6.551724">
-              <folding />
+            <state line="43" column="30" selection-start="1109" selection-end="1109" vertical-scroll-proportion="8.62963">
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h2#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#label#0;n#label#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#label#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -130,19 +92,66 @@
       <file leaf-file-name="tests_index_view.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/tests_index_view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="76" selection-start="167" selection-end="169" vertical-scroll-proportion="-0.44444445">
+            <state line="0" column="26" selection-start="26" selection-end="26" vertical-scroll-proportion="-0.0">
               <folding>
-                <marker date="1366710500003" expanded="true" signature="190:291" placeholder="..." />
-                <marker date="1366710500003" expanded="true" signature="300:364" placeholder="..." />
+                <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tests_edit_view.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/tests_edit_view.php">
+      <file leaf-file-name="Request.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classes/Request.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="30" selection-start="33" selection-end="33" vertical-scroll-proportion="-0.82758623">
+            <state line="3" column="0" selection-start="22" selection-end="22" vertical-scroll-proportion="-0.82758623">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classes/user.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_add_edit.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/js/test_add_edit.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="72" column="0" selection-start="2687" selection-end="2687" vertical-scroll-proportion="0.74422735">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tests_add_view.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/tests_add_view.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="47" column="46" selection-start="1722" selection-end="1722" vertical-scroll-proportion="46.103447">
+              <folding>
+                <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+                <marker date="1366886854808" expanded="true" signature="439:454" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tests_remove_view.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/tests_remove_view.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="6" selection-start="58" selection-end="58" vertical-scroll-proportion="-2.4827585">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tests.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/js/tests.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="31" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -167,22 +176,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/classes/user.php" />
-        <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/classes/database.php" />
         <option value="$PROJECT_DIR$/classes/Request.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/config.php" />
         <option value="$PROJECT_DIR$/assets/js/vendor/test_add_edit.js" />
-        <option value="$PROJECT_DIR$/views/master_view.php" />
-        <option value="$PROJECT_DIR$/views/auth_view.php" />
-        <option value="$PROJECT_DIR$/views/tests_index_view.php" />
-        <option value="$PROJECT_DIR$/controllers/tests.php" />
         <option value="$PROJECT_DIR$/views/tests_edit_view.php" />
         <option value="$PROJECT_DIR$/assets/js/vendor/modernizr-2.6.2.min.js" />
-        <option value="$PROJECT_DIR$/assets/js/test_add_edit.js" />
+        <option value="$PROJECT_DIR$/controllers/tests.php" />
+        <option value="$PROJECT_DIR$/views/tests_remove_view.php" />
+        <option value="$PROJECT_DIR$/assets/js/tests.js" />
+        <option value="$PROJECT_DIR$/views/master_view.php" />
+        <option value="$PROJECT_DIR$/views/tests_index_view.php" />
+        <option value="$PROJECT_DIR$/views/auth_view.php" />
         <option value="$PROJECT_DIR$/views/tests_add_view.php" />
+        <option value="$PROJECT_DIR$/assets/js/test_add_edit.js" />
       </list>
     </option>
   </component>
@@ -219,6 +228,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -306,28 +316,9 @@
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testly" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testly" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -421,7 +412,11 @@
       <created>1366636561916</created>
       <updated>1366636561916</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add test_add_view. Add js. Add Buttons">
+      <created>1366719496151</created>
+      <updated>1366719496151</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <option name="markAsInProgress" value="true" />
     <servers>
       <PivotalTracker shared="false" url="http://www.pivotaltracker.com">
@@ -461,12 +456,12 @@
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5925926" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5925926" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14166667" sideWeight="0.4074074" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14621212" sideWeight="0.4074074" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32730263" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -523,7 +518,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Multiple choices. Test editing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add test_add_view. Add js. Add Buttons" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -546,6 +541,7 @@
     <MESSAGE value="Add .gitignore" />
     <MESSAGE value="Adding many new things" />
     <MESSAGE value="Multiple choices. Test editing" />
+    <MESSAGE value="Add test_add_view. Add js. Add Buttons" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -553,114 +549,125 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="34" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="-0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="5" selection-start="660" selection-end="660" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="9" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/Request.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/auth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="36" selection-start="86" selection-end="86" vertical-scroll-proportion="-0.82758623">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/master_view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="19" selection-start="2537" selection-end="2537" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1366708991481" expanded="true" signature="2290:2536" placeholder="..." />
-            <marker date="1366708991481" expanded="true" signature="2383:2408" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/tests.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="38" selection-start="1288" selection-end="1288" vertical-scroll-proportion="-13.931034">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/tests_index_view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="76" selection-start="167" selection-end="169" vertical-scroll-proportion="-0.44444445">
-          <folding>
-            <marker date="1366710500003" expanded="true" signature="190:291" placeholder="..." />
-            <marker date="1366710500003" expanded="true" signature="300:364" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/auth_view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="13" selection-start="2320" selection-end="2320" vertical-scroll-proportion="-6.551724">
+        <state line="3" column="36" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/vendor/modernizr-2.6.2.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="9850" selection-start="10507" selection-end="10507" vertical-scroll-proportion="0.064">
-          <folding />
-        </state>
+        <state line="3" column="9850" selection-start="10507" selection-end="10507" vertical-scroll-proportion="0.064" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/tests_edit_view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="30" selection-start="33" selection-end="33" vertical-scroll-proportion="-0.82758623">
+        <state line="1" column="30" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/test_add_edit.js">
+    <entry file="file://$PROJECT_DIR$/controllers/auth.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="895" selection-end="895" vertical-scroll-proportion="0.0">
+        <state line="16" column="0" selection-start="233" selection-end="233" vertical-scroll-proportion="-8.275862">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="5" selection-start="660" selection-end="660" vertical-scroll-proportion="6.7586207">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/Request.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="22" selection-end="22" vertical-scroll-proportion="-0.82758623">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/tests.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="5" selection-start="1378" selection-end="1378" vertical-scroll-proportion="-3.1724138">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/tests_index_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="26" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/auth_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="30" selection-start="1109" selection-end="1109" vertical-scroll-proportion="8.62963">
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#label#0;n#label#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#label#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/master_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="22" selection-start="1913" selection-end="1914" vertical-scroll-proportion="-26.222221">
+          <folding>
+            <marker date="1366883749897" expanded="true" signature="2292:2538" placeholder="..." />
+            <marker date="1366883749897" expanded="true" signature="2385:2410" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/tests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="31" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/tests_remove_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="6" selection-start="58" selection-end="58" vertical-scroll-proportion="-2.4827585">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/tests_add_view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="26" selection-start="162" selection-end="162" vertical-scroll-proportion="0.41142857">
+        <state line="47" column="46" selection-start="1722" selection-end="1722" vertical-scroll-proportion="46.103447">
           <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <marker date="1366718399641" expanded="true" signature="418:433" placeholder="..." />
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <marker date="1366886854808" expanded="true" signature="439:454" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/test_add_edit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="0" selection-start="2687" selection-end="2687" vertical-scroll-proportion="0.74422735">
+          <folding />
         </state>
       </provider>
     </entry>
