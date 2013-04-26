@@ -35,14 +35,17 @@ function removeMultipleResponse(){
 	return false;
 }
 function checkForm(){
-//
+//Find all elements that have id type_id_ + current_type_id and have input with a type checkbox or radio
 	var elements=$('#type_id_' + current_type_id + 'input[type=checkbox]:not(.shuffle_answers), #type_id_' + current_type_id + 'input[type=radio]:not(#shuffle)');
 	var textboxes=$('#type_id_' + current_type_id + 'textarea');
+	//loop through elements
+		// if elements have attribute checked and their text box is not left empty return true
 	for(var i=0; i<elements.length; i++){
 		if($(elements[i]).attr('checked')&& $.trim($(textboxes[i]).val())!=""){
 			return true;
 		}
 	}
+	//if code doesn't execute the if content then it give alert; return false
 	alert("Palun m2rgi 6ige vastus");
 	return false;
 }

@@ -1,4 +1,4 @@
-<p><a class="btn btn-large btn-inverse" href="<?BASE_URL?>tests/add">Lisa uus test </a>
+<p><a class="btn btn-large btn-inverse" href="#" id="add_test">Lisa uus test </a>
 </p>
 <table id="tests-table" class="table table-bordered table striped" style="opacity: 0.70">
 	<thead>
@@ -28,4 +28,9 @@
 	<? endforeach;endif?>
 	</tbody>
 
+
 </table>
+<link rel="stylesheet" type="text/css" href="<?=ASSETS_URL?>css/jquery.confirm.css" />
+<div class="item" style="display: none">y
+	<div class="delete">x</div>
+</div>

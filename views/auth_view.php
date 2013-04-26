@@ -73,12 +73,12 @@
 
 			<label class="checkbox">
 			<div style="padding-left: 74px" >
-				<input type="checkbox" value="remember-me"> Jäta mind meelde
+				<input type="checkbox" value="remember-me" style="color: darkolivegreen"> Jäta mind meelde
 			</div>
 			</label>
 
 			<div style="text-align: center">
-			<button class="btn btn-large btn-inverse" type="submit">Logi sisse</button>
+			<button class="btn btn-large btn-inverse" >Logi sisse</button>
 			</div>
 	</form>
 
