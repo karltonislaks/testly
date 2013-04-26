@@ -22,18 +22,24 @@ $(document).ready(function(){
 		var elem = $(this).closest('#confirmOverlay');
 
 		$.confirm({
-			'title'		: 'Delete Confirmation',
-			'message'	: 'You are about to delete this item. <br />It cannot be restored at a later time! Continue?',
 			'buttons'	: {
-				'Yes'	: {
+				'Kinnita'	: {
 					'class'	: 'blue',
-					'action': function(){
-						elem.slideUp();
+					'action': function add(){
+						return $.ajax({
+							type:'POST',
+							name:'test_name',
+							dataType:'json',
+							url:BASE_URL + 'tests/add',
+							async: false
+						})
+							.done(function(msg){}).responseText;
+
 					}
 				},
-				'No'	: {
+				'Loobu'	: {
 					'class'	: 'gray',
-					'action': function(){}	// Nothing to do in this case. You can as well omit the action property.
+					'action': function (){}	// Nothing to do in this case. You can as well omit the action property.
 				}
 			}
 		});
@@ -66,14 +72,13 @@ $(document).ready(function(){
 		var markup = [
 			'<div id="confirmOverlay">',
 			'<div id="confirmBox">',
-			'<h1>',params.title,'</h1>',
-			'<input name="test_name" type="text">',
-			'<p>',params.message,'</p>',
+			'<h1>'+"Sisesta testi nimi: "+'</h1>',
+			'<center><input name="test_name" type="text"></center>',
 			'<div id="confirmButtons">',
 			buttonHTML,
 			'</div></div></div>'
 		].join('');
-
+		alert(markup.('input').val());
 		$(markup).hide().appendTo('body').fadeIn();
 
 		var buttons = $('#confirmBox .button'),
@@ -90,12 +95,14 @@ $(document).ready(function(){
 				return false;
 			});
 		});
-	}
+	};
 
-	$.confirm.hide = function(){
-		$('#confirmOverlay').fadeOut(function(){
-			$(this).remove();
-		});
-	}
+		$.confirm.hide = function (){
+			$('#confirmOverlay').fadeOut(function(){
+				$(this).remove();
+
+			});
+
+	};
 
 })(jQuery);
