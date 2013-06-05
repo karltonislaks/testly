@@ -2,13 +2,12 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Sign in &middot; Testly</title>
+	<title>Logi sisse &middot; Testly</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="">
 	<meta name="author" content="">
 
 	<!-- Le styles -->
-	<link href="<?=ASSETS_URL?>assets/css/bootstrap.css" rel="stylesheet">
 	<style type="text/css">
 		body {
 			padding-top: 40px;
@@ -41,12 +40,10 @@
 			height: auto;
 			margin-bottom: 15px;
 			padding: 7px 9px;
-			text-align: center;
 		}
 
 	</style>
 	<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
-
 
 	<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 	<!--[if lt IE 9]>
@@ -61,29 +58,21 @@
 	<link rel="shortcut icon" href="../assets/ico/favicon.png">
 </head>
 
-<body style="background-image: url(assets/img/taust.jpg)">
+<body style="background-image: url(assets/img/iostexture.png)">
 
 <div class="container">
 
-	<form class="form-signin" method="POST" style="opacity: 0.7; border: dotted darkolivegreen 3px ">
-		<h2 class="form-signin-heading" style="text-shadow: darkolivegreen 2px 2px 2px; text-align: center">Logi sisse</h2>
-		<input name="username" type="text" class="input-block-level" placeholder="Kasutajanimi">
-		<input name="password" type="password" class="input-block-level" placeholder="Parool">
+	<form method="post" class="form-signin">
+		<h2 class="form-signin-heading">Logi sisse</h2>
+		<input name="username" type="text" class="input-block-level" placeholder="kasutajanimi">
+		<input name="password" type="password" class="input-block-level" placeholder="parool">
 		<label class="checkbox">
-
-			<label class="checkbox">
-			<div style="padding-left: 74px" >
-				<input type="checkbox" value="remember-me" style="color: darkolivegreen"> Jäta mind meelde
-			</div>
-			</label>
-
-			<div style="text-align: center">
-			<button class="btn btn-large btn-inverse" >Logi sisse</button>
-			</div>
+			<input type="checkbox" value="remember-me"> Pea mind meeles
+		</label>
+		<button class="btn btn-large btn-primary" type="submit">Logi sisse</button>
 	</form>
 
 </div>
 <!-- /container -->
-
 </body>
 </html>
